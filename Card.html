@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.1" />
+  <link rel="stylesheet" href="reset.css"> <!-- link com o arquivo style que reseta o padrão do navegador -->
+  <link rel="stylesheet" href="stylecard.css" /> <!-- link com o arquivo de estilo da pagina/css-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Validador de cartão de crédito</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-header">
+      <img class="img-logo" src="./imagens/icone-logo.JPG" alt="logo">
+      <nav class="menu">
+        <p><a href="index.html">Voltar Home</a></p>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <form>
+      <div class="container-main">
+        <h1 class="titulo-principal">Validador de Número de Cartão Crédito</h1>
+        <section id="valida-cartão">
+
+          <input class="inputNumeroCard" id="numeroCard" type="text" name="numeroCard" value=""
+            placeholder="Dígite aqui somente o número do cartão" maxlength="16" />
+          <button class="clique-input" id="botaoValidar" type="submit"> Validar </button><br>
+
+          <p id="resultadoValidacao"></p>
+          <p id="resultadoMascara"></p>
+          <p id="teste"></p>
+
+          <!-- <button class="clique-input" id="botaoNovaConsulta"> Realizar nova consulta </button> -->
+        </section>
+      </div>
+      <div class="caixa-descricao-da-pagina">
+        <h3 class="titulo">O que é o validador de cartão de crédito?</h3>
+        <p class="descrição">
+          A ferramenta validador de cartão irá lhe confirmar se o número do cartão de crédito ou débito inserido é
+          valido ou inválido.
+          Nossa ferramenta foi desenvolvida através do Algoritmo Luhn.
+          <a href="https://en.wikipedia.org/wiki/Luhn_algorithm" target="_blank"></a>
+          clique aqui e você poderá conhecer na wikipedia a formula por trás do Algoritmo.</p>
+        <h3 class="titulo">Guardamos esses números de cartão?</h3>
+        <p class="descrição">Não! Os números de cartão de crédito / débito inseridos por você em nosso Validador são
+          totalmente anônimos e após a consulta, não serão armazenados.</p>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <div class="container-footer">
+      <p>&copy; Desenvolvido por Taize Santos | Minhas redes:</p>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/taizeborges/" target="_blank">
+            <img class="icone-footer1" src="./imagens/icone-linkedin.png" alt="Linkedin"></a>
+          <a href="https://github.com/taizesantos" target="_blank">
+            <img class="icone-footer2" src="./imagens/icone-git.png" alt="GitHub"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="index.js" type="module"></script>
+  </body>
+</html>
