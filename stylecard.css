@@ -1,9 +1,9 @@
-/* Estilo do cabeçalho-menu */
+/* Estilo cabeçalho */
 body{
   font-family: "Montserrat", sans-serif; /*fonte da pag*/
 }
 
-.container-header{
+.cabecalho-principal{
   height: 220px;
   background-color: #0080cc;
   display: flex;
@@ -12,45 +12,48 @@ body{
   align-items: center;
 }
 
-.menu a{
-  text-decoration: none; /*parar o trasado da letra*/
-  color:#fdfdfd; /*cor*/
-  font-size: 20px; /*tamanho da letra*/
-  text-transform: uppercase; /*incluir trasado na letra ao passar o cursor*/
+.pag-home a{
+  text-decoration: none; 
+  color:#fdfdfd; 
+  font-size: 20px; 
+  text-transform: uppercase; 
   margin: 0 180px 0  ;
   margin-top: 0;
 }
 
-.menu a:hover{
+.pag-home a:hover{
   text-decoration: underline;
 }
 
-/* Estilo sessao cartao */
-.container-main{
+/* Estilo input cartao */
+.conteudo-principal{
   margin-top: 60px;
   margin-left: 700px;
 }
 
-.titulo-principal{
+.input-tituloPrincipal{
   margin-left: 40px;
+  margin-bottom: 10px;
   font-size: 22px;
   font-weight: bold;
 }
 
-.inputNumeroCard{
+.input-NumeroCartao{ /* posicao, efeito e tamanho do input numero */
   width: 500px;
-  height: 40px;
+  height: 42px;
   margin: 2px 2px 2px;
   padding: 2px 2px;
   border-radius: 5px;
   border-color:#0080cc ;
   color: #0080cc;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
+  margin-bottom: 20px;
+ 
 }
 
-.clique-input{
+.clique-input{ /* posicao e efeito do botao validar */
   height: 38px;
   color: #fdfdfd;
   font-size: 16px;
@@ -60,26 +63,53 @@ body{
   background: #0080cc;
 }
 
-/* Estilo sessao descrição da pag */
-.caixa-descricao-da-pagina{
-  margin-top: 160px;
-  text-align: center;
+/* Estilo desenho do cartao */
+
+.desenho-cartao { /* posicao, tamanho, cor e efeito da img cartao */
+  height: 180px;
+  width: 280px;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(166, 225, 243, 0.75) 100%);
+  border: 0.5px solid;
+  box-sizing: border-box;
+  box-shadow: 3px 4px 4px #0080cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-left: 110px;
 }
 
-.titulo{
+.container-desenhoCartao { /* posicao img chip */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.img-chip { /* tamanho da img chip */
+  width: 16%;
+}
+
+/* Estilo descrição da pag */
+.descricao-principal{
+  margin-top: 110px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.titulo-principal{
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
 }
 
-.descrição{ 
+.subtitulo{ 
   margin-top: 15px;
   margin-left: 10px;
   font-size: 16px;
   color: #1b2738;
 }
 
-/* Estilo do rodape */
+/* Estilo rodape */
 .container-footer{
   margin-top: 60px;
   text-align: center;
