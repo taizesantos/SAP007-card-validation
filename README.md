@@ -4,24 +4,24 @@
 O desafio era criar uma aplicação web que através do algoritmo de Luhn realiza-se a confirmação de validação do número de cartão de crédito, bem como após o retorno ao usuário, deixar visível somente os 04 últimos dígitos do cartão. 
 
 ## 2. Projeto realizado
-O produto final é um site que possui ferramentas que através do algoritmo de Luh, confirma ao usuário a validação de dados, dentre eles o do cartão de crédito.
+O produto final é um site que possui ferramentas que através do algoritmo de Luhn, confirma ao usuário a validação de dados, dentre eles o do cartão de crédito.
 
 ## 3. Estrutura
 O site tem uma estrutura clara e objetiva, contendo:
-Na parte central um menu com as opções:
+.Na parte central um menu com as opções:
 - Validador de cartão
 - Validador de CNPJ 
 - Validador de CNPF
 - Validador de Número de telefone
 - Validador de IMEI
-Na parte inferior da tela possuí um menu com botões para direcionar para as minhas redes sociais:
+.Na parte inferior da tela possuí um menu com botões para direcionar para as minhas redes sociais:
 - GitHub
 - Linkedin
 
 ## 4. Funcionamento
-1° No menu disponível, o usuário deverá clicar na opção "VALIDADOR DE CARTÃO". 
-2° Após o clique, o usuário será direcionado para a tela de validação.
-3° O usuário deverá incluir no campo "NÚMERO DO CARTÃO" todos os digítos do seu cartão e em seguida clicar no botão "VALIDAR".
+- 1° No menu disponível, o usuário deverá clicar na opção "VALIDADOR DE CARTÃO". 
+- 2° Após o clique, o usuário será direcionado para a tela de validação.
+- 3° O usuário deverá incluir no campo "NÚMERO DO CARTÃO" todos os digítos do seu cartão e em seguida clicar no botão "VALIDAR".
 
 ## 5. Ferramentas e metodologia aplicada
 Para a construção do site foi utilizado o software Visual Studio Code com a extenção do Node-js. Sua marcação foi feita em HTML e sua estilização em CSS. O Valida dados foi programado em vanilla JavaScript, contendo os arquivos, index.js, responsável pela interação dos elementos do DOM e o validador.js responsável pelas lógicas de validar e mascarar os digítos do cartão insluso pelo usuário.
@@ -33,9 +33,9 @@ Assim como as cerimonias da metodologia ágil: Daily, Sprint Planning, Sprint Re
 - Realizar a inclusão da funcionalidade para validação dos demais dados disponiveis no menu também com o algoritmo de Luhn.
 
 ## 7. Objetivos de aprendizagem realizados
-Usabilidade do HTML Semântico
-Usabilidade do CSS
-JavaScrip:
+-Usabilidade do HTML Semântico
+-Usabilidade do CSS
+.JavaScrip:
 - Maninulação dinâmica de DOM
 - Gerenciamento de eventos de DOM
 - Variaveis, funcões, laços e usos de condicionais
@@ -50,7 +50,7 @@ Você precisará usar o Node.js
 
 Clonar o projeto
 
-` $ git clone 
+` $ git clone https://github.com/taizesantos/SAP007-card-validation
 
 Instalar as dependências do projeto
 
