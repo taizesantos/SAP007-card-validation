@@ -26,7 +26,7 @@ O site tem uma estrutura clara e objetiva, contendo:
 
 - Validador de cartão
 - Validador de CNPJ 
-- Validador de CNPF
+- Validador de CPF
 - Validador de Número de telefone
 - Validador de IMEI
 
