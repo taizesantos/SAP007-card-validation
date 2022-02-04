@@ -1,20 +1,37 @@
-# Cartão de Crédito Válido
+# Validador de Cartão :Bolsa de dinheiro:
+
+## :círculo vermelho: Teste Aqui: [ValidaDados]<a href="https://taizesantos.github.io/SAP007-card-validation/"></a>
+
+Índice
+
+[1. Proposta de projeto](#1-Proposta de projeto)
+[2. Projeto realizado](#2-Projeto realizado)
+[3. Estrutura](#3-Estrutura)
+[4. Funcionamento](#4-Funcionamento)
+[5. Ferramentas e metodologia aplicada](#5-Ferramentas e metodologia aplicada)
+[6. Implementações futuras](#6-Implementações futuras)
+[7. Objetivos de aprendizagem realizados](#7-Objetivos de aprendizagem realizados)
+[8. Como usar](#8-Como usar)
 
 ## 1. Proposta de projeto
 O desafio era criar uma aplicação web que através do algoritmo de Luhn realiza-se a confirmação de validação do número de cartão de crédito, bem como após o retorno ao usuário, deixar visível somente os 04 últimos dígitos do cartão. 
 
 ## 2. Projeto realizado
-O produto final é um site que possui ferramentas que através do algoritmo de Luhn, confirma ao usuário a validação de dados, dentre eles o do cartão de crédito.
+O produto final é um site que possui ferramentas que através do algoritmo de Luhn, confirma ao usuário a validação de dados, dentre eles o do cartão de crédito. [CliqueAqui]<a href="https://taizesantos.github.io/SAP007-card-validation/"></a> visualizar e testar o projeto finalizado.
 
 ## 3. Estrutura
 O site tem uma estrutura clara e objetiva, contendo:
+
 .Na parte central um menu com as opções:
+
 - Validador de cartão
 - Validador de CNPJ 
 - Validador de CNPF
 - Validador de Número de telefone
 - Validador de IMEI
-.Na parte inferior da tela possuí um menu com botões para direcionar para as minhas redes sociais:
+
+Na parte inferior da tela possuí um menu com botões para direcionar para as minhas redes sociais:
+
 - GitHub
 - Linkedin
 
@@ -33,14 +50,16 @@ Assim como as cerimonias da metodologia ágil: Daily, Sprint Planning, Sprint Re
 - Realizar a inclusão da funcionalidade para validação dos demais dados disponiveis no menu também com o algoritmo de Luhn.
 
 ## 7. Objetivos de aprendizagem realizados
--Usabilidade do HTML Semântico
--Usabilidade do CSS
-.JavaScrip:
+- Usabilidade do HTML Semântico
+- Usabilidade do CSS
+- JavaScrip:
 - Maninulação dinâmica de DOM
 - Gerenciamento de eventos de DOM
 - Variaveis, funcões, laços e usos de condicionais
 - Testes
-Git e GitHub:
+
+   Git e GitHub:
+
  - Git: Instalação e configuração
  - Git: Controle da versão com git (init, clone, add, commit, status, push, pull, remote)
  - GitHub: Implantação com GitHub Pages
@@ -50,7 +69,7 @@ Você precisará usar o Node.js
 
 Clonar o projeto
 
-` $ git clone https://github.com/taizesantos/SAP007-card-validation
+` $ git clone https://github.com/taizesantos/SAP007-card-validation`
 
 Instalar as dependências do projeto
 
@@ -63,5 +82,6 @@ Iniciar a aplicação
 Realizar os testes unitários
 
 ` $ npm test or yarn test`
+
 
 Criado por [Taize Santos]
