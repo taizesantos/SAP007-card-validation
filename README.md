@@ -1,23 +1,23 @@
-# Validador de Cartão :Bolsa de dinheiro:
+# Validador de Cartão
 
-## :círculo vermelho: Teste Aqui: [ValidaDados]<a href="https://taizesantos.github.io/SAP007-card-validation/"></a>
+## Teste Aqui: [ValidaDados](https://taizesantos.github.io/SAP007-card-validation/)
 
 Índice
 
-[1. Proposta de projeto](#1-Proposta de projeto)
-[2. Projeto realizado](#2-Projeto realizado)
-[3. Estrutura](#3-Estrutura)
-[4. Funcionamento](#4-Funcionamento)
-[5. Ferramentas e metodologia aplicada](#5-Ferramentas e metodologia aplicada)
-[6. Implementações futuras](#6-Implementações futuras)
-[7. Objetivos de aprendizagem realizados](#7-Objetivos de aprendizagem realizados)
-[8. Como usar](#8-Como usar)
+- [1. Proposta de projeto](#1-Proposta-de-projeto)
+- [2. Projeto realizado](#2-Projeto-realizado)
+- [3. Estrutura](#3-Estrutura)
+- [4. Funcionamento](#4-Funcionamento)
+- [5. Ferramentas e metodologia aplicada](#5-Ferramentas-e-metodologia-aplicada)
+- [6. Implementações futuras](#6-Implementações-futuras)
+- [7. Objetivos de aprendizagem realizados](#7-Objetivos-de-aprendizagem-realizados)
+- [8. Como usar](#8-Como-usar)
 
 ## 1. Proposta de projeto
 O desafio era criar uma aplicação web que através do algoritmo de Luhn realiza-se a confirmação de validação do número de cartão de crédito, bem como após o retorno ao usuário, deixar visível somente os 04 últimos dígitos do cartão. 
 
 ## 2. Projeto realizado
-O produto final é um site que possui ferramentas que através do algoritmo de Luhn, confirma ao usuário a validação de dados, dentre eles o do cartão de crédito. [CliqueAqui]<a href="https://taizesantos.github.io/SAP007-card-validation/"></a> visualizar e testar o projeto finalizado.
+O produto final é um site que possui ferramentas que através do algoritmo de Luhn, confirma ao usuário a validação de dados, dentre eles o do cartão de crédito.
 
 ## 3. Estrutura
 O site tem uma estrutura clara e objetiva, contendo:
@@ -52,7 +52,9 @@ Assim como as cerimonias da metodologia ágil: Daily, Sprint Planning, Sprint Re
 ## 7. Objetivos de aprendizagem realizados
 - Usabilidade do HTML Semântico
 - Usabilidade do CSS
-- JavaScrip:
+
+  JavaScrip:
+
 - Maninulação dinâmica de DOM
 - Gerenciamento de eventos de DOM
 - Variaveis, funcões, laços e usos de condicionais
