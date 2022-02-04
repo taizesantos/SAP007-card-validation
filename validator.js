@@ -23,10 +23,9 @@ const validator = {
     }
   },
 
-
   maskify(numeroCartao) {
     let ocultaNumero = [];
-    for (let i = 0; 1 < numeroCartao.length; i++) {
+    for (let i = 0; i < numeroCartao.length; i++) {
       if (i < numeroCartao.length - 4) {
         ocultaNumero.push("#");
       }

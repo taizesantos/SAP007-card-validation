@@ -28,7 +28,7 @@ body{
 /* Estilo input cartao */
 .conteudo-principal{
   margin-top: 60px;
-  margin-left: 700px;
+  margin-left: 36%;
 }
 
 .input-tituloPrincipal{
@@ -53,7 +53,7 @@ body{
  
 }
 
-.clique-input{ /* posicao e efeito do botao validar */
+.botaoValidar{ /* posicao e efeito do botao validar */
   height: 38px;
   color: #fdfdfd;
   font-size: 16px;
@@ -65,7 +65,7 @@ body{
 
 /* Estilo desenho do cartao */
 
-.desenho-cartao { /* posicao, tamanho, cor e efeito da img cartao */
+.desenho-cartao{ /* posicao, tamanho, cor e efeito da img cartao */
   height: 180px;
   width: 280px;
   background: linear-gradient(180deg, #f8f8f8 0%, rgba(166, 225, 243, 0.75) 100%);
@@ -79,19 +79,47 @@ body{
   margin-left: 110px;
 }
 
-.container-desenhoCartao { /* posicao img chip */
+.desenho-cartao > p{ /* posicao mensagem de validacao */
+  text-align: center;
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: center;
+  word-wrap: break-word;
+}
+
+.container-desenhoCartao{ /* posicao img chip */
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
 }
 
-.img-chip { /* tamanho da img chip */
+.img-chip{ /* tamanho da img chip */
   width: 16%;
+}
+
+/* Estilo botao reiniciar da pag */
+.botaoNovaConsulta{
+  height: 38px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #a7d0e7;
+  text-align: center;
+  background: #8fc4e2;
+  margin-top: 22px;
+  box-shadow: 2px 3px 3px #0080cc;
+ 
+
+}
+
+.reiniciar{
+  margin-left: 846px;
 }
 
 /* Estilo descrição da pag */
 .descricao-principal{
-  margin-top: 110px;
+  margin-top: 50px;
   text-align: center;
   margin-bottom: 10px;
 }
